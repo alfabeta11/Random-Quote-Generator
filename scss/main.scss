@@ -1,0 +1,15 @@
+// Customize variables;
+@import "./variables.scss";
+
+// Import bootstrap;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box {
+  min-width: 300px;
+}
